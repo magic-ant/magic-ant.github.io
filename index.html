@@ -1,128 +1,104 @@
 
-<html>
-  <head>
+<!DOCTYPE HTML>
+<!--
+	Multiverse by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="zh-cn">
+<head>
+    <title>Magic-ant</title>
+<meta name="keywords" content="" />
+<meta name="description" content="Welcome to this!" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<base href="https://magic-ant.github.io/">
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="stylesheet" href="media/css/main-multiverse.css" />
+<link rel="stylesheet" href="media/css/modify-multiverse.css" />
+<noscript><link rel="stylesheet" href="media/css/noscript-multiverse.css" /></noscript>
+
+
+
+</head>
+<body class="is-preload">
+
+<!-- 外封 -->
+<div id="wrapper">
+
+    <!-- 页眉 -->
+    <header id="header">
     
-<meta charset="utf-8" >
+    <h1><strong>Magic-ant</strong> 由 <a href="https://html5up.net">HTML5 UP</a> 设计样式。</h1>
+    <nav>
+        <ul>
+            
+            
+            <li><a href="#footer" class="icon solid fa-info-circle">关于</a></li>
+        </ul>
+    </nav>
+    
+</header>
 
-<title>Magic-ant</title>
-<meta name="description" content="Welcome to this!">
+    <!-- 主要内容 -->
+    
+<main id="main">
+    
+    <article class="thumb">
+        
+        <h2>今日一记</h2>
+        <p>生活就是如此枯燥乏味！</p>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://magic-ant.github.io/favicon.ico?v=1591613351404">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://magic-ant.github.io/styles/main.css">
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+    </article>
+    
+</main>
 
 
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://magic-ant.github.io">
-        <img class="avatar" src="https://magic-ant.github.io/images/avatar.png?v=1591613351404" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://magic-ant.github.io">
-        <h1 class="site-title">Magic-ant</h1>
-      </a>
+    <!-- 页脚 -->
+    
+<footer id="footer" class="panel">
+    
+    <div class="inner split">
+        <div>
+            <section>
+                <h2>关于</h2>
+                <p>Welcome to this!</p>
+            </section>
+            <section>
+                <h2>求订阅我的...</h2>
+                <ul class="icons">
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            </section>
+            <p class="copyright">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Magic-ant</a></p>
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        
-        
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">Welcome to this!</div>
-  <div class="social-container">
     
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Magic-ant</a> | <a class="rss" href="https://magic-ant.github.io/atom.xml" target="_blank">RSS</a>
+</footer>
+
 </div>
 
 
-    </div>
-    <script type="application/javascript">
+<!-- 脚本 -->
 
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
+<script src="media/scripts/jquery.min.js"></script>
+<script src="media/scripts/jquery.poptrox.min.js"></script>
+<script src="media/scripts/browser.min.js"></script>
+<script src="media/scripts/breakpoints.min.js"></script>
+<script src="media/scripts/util-multiverse.js"></script>
+<script src="media/scripts/main-multiverse.js"></script>
 
 
-
-
-  </body>
+</body>
 </html>
